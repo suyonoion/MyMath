@@ -5,7 +5,7 @@
 # SS Menu
 ![alt tag](https://raw.githubusercontent.com/suyonoion/MyMath/master/demo/Screenshot_20160207-212716.png)
 # Demo apk
-https://raw.githubusercontent.com/suyonoion/MyMath/master/demo/com.suyonoion.mymath.apk
+https://raw.githubusercontent.com/suyonoion/MyMath/master/demo/com.suyonoion.mymath_build_07022016.apk
 # Tentang
 ```
 Developed by Suyono (ion)
