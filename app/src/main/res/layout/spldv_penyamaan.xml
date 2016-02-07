@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="5dp" android:background="#80000000"
+              android:id="@+id/spldv_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A. Metode Penyamaan"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/persamaan_i"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8c9cf4"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Persamaan (i)"
+                android:layout_margin="5dp"
+                android:textColor="#ffffffff"/>
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="7dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3x + 4y" android:id="@+id/penyamaan_kiri1" android:layout_weight="1" android:gravity="center"
+                />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="=" android:gravity="center" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13200" android:id="@+id/penyamaan_kanan1" android:layout_weight="1" android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="7dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3x" android:id="@+id/penyamaan_kiri2" android:layout_weight="1" android:gravity="center"
+                />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="=" android:gravity="center" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="13200 - 4y" android:id="@+id/penyamaan_kanan2" android:layout_weight="1" android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_margin="7dp"
+                      android:background="#4052b5">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="x" android:id="@+id/penyamaan_kiri3" android:layout_weight="1" android:gravity="center"
+                      android:textColor="#ffffff"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="=" android:gravity="center" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+                      android:textColor="#ffffff"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="match_parent" android:layout_height="0dp" android:text="13200 - 4y" android:id="@+id/penyamaan_kanan3_atas" android:layout_weight="1" android:gravity="center"
+                          android:textColor="#ffffff"/>
+                <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/garis_pembagi" android:src="#ffffff" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+                           android:contentDescription="garis pembagi"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3" android:id="@+id/penyamaan_kanan3_bawah" android:gravity="center"
+                          android:textColor="#ffffff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/persamaan_ii"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8c9cf4"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Persamaan (ii)"
+                android:layout_margin="5dp"
+                android:textColor="#ffffffff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5x + 2y"
+                android:id="@+id/penyamaan_kiri1_ii"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15000"
+                android:id="@+id/penyamaan_kanan1_ii"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5x"
+                android:id="@+id/penyamaan_kiri2_ii"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15000 - 2y"
+                android:id="@+id/penyamaan_kanan2_ii"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="7dp"
+            android:background="#4153b5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:id="@+id/penyamaan_kiri3_ii"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#ffffff"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="15000 - 2y"
+                    android:id="@+id/penyamaan_kanan3_ii_atas"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="#ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:id="@+id/penyamaan_kanan3_ii_bawah"
+                    android:gravity="center"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maka, i = ii"
+        android:textColor="#ffffff"
+        android:background="#8c9cf4"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/maka_i_ii"
+        android:gravity="center|center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/spldv_penyamaan_maka"
+        android:id="@+id/id_include_maka"/>
+
+
+</LinearLayout>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="7dp"
+        android:background="#809491f4"
+        android:id="@+id/formEditorSPLDV">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persamaan Linear Dua Variabel \n (SPLDV)"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:background="#8c9cf4"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/judulSPLDV"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/persamaan"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="#80ff00aa">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/persamaan1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:id="@+id/EditTxt_a"
+                    android:text="3"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:maxLength="10"
+                    android:longClickable="false"
+                    android:hint="a"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="x"
+                    android:textStyle="bold|italic"
+                    android:textColor="#25be06"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:id="@+id/EditTxt_b"
+                    android:layout_weight="1"
+                    android:text="4"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:maxLength="10"
+                    android:longClickable="false"
+                    android:hint="b"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="y"
+                    android:textStyle="bold|italic"
+                    android:textColor="#25be06"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="="
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:id="@+id/EditTxt_c"
+                    android:layout_weight="1"
+                    android:text="13200"
+                    android:background="#00000000"
+                    android:maxLength="10"
+                    android:longClickable="false"
+                    android:hint="c"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/persamaan2">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:id="@+id/EditTxt_d"
+                    android:text="5"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:maxLength="10"
+                    android:longClickable="false"
+                    android:hint="d"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="x"
+                    android:textStyle="bold|italic"
+                    android:textColor="#25be06"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:id="@+id/EditTxt_e"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:gravity="end"
+                    android:background="#00000000"
+                    android:maxLength="10"
+                    android:longClickable="false"
+                    android:hint="e"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="y"
+                    android:textStyle="bold|italic"
+                    android:textColor="#25be06"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="="
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:id="@+id/EditTxt_f"
+                    android:layout_weight="1"
+                    android:text="15000"
+                    android:background="#00000000"
+                    android:maxLength="10"
+                    android:longClickable="false"
+                    android:hint="f"
+                    android:textColorHint="#ffffffff"
+                    android:textColor="#ffffffff"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSPLDV"
+            android:layout_margin="7dp"
+            android:background="@drawable/drawer_shadow">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Metode Penyelesaian Persamaan :"
+                android:textColor="#ffffff"
+                android:background="#8c9cf4"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:id="@+id/daftarMetode"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="a. Penyamaan"
+                android:id="@+id/btnHasil"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#0fa501"
+                android:textStyle="italic"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="b. Substitusi"
+                android:id="@+id/btnSubstitusi"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#0fa501"
+                android:textStyle="italic"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="c: Eliminasi"
+                android:id="@+id/btnEliminasi"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#0fa501"
+                android:textStyle="italic"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="d. Grafik"
+                android:id="@+id/btnGrafik"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#0fa501"
+                android:textStyle="italic"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="e. Determinan"
+                android:id="@+id/btnDeterminan"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#0fa501"
+                android:textStyle="italic"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Bersih"
+                android:id="@+id/btnClear"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#b60101"
+                android:padding="3dp"
+                android:textStyle="italic"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/penyelesaianSPLDV"
+        android:layout_margin="7dp"
+        android:background="#ffffffff"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil (x,y)"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:background="#8c9cf4"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/judulHasilSPLDV"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="x = ?"
+            android:id="@+id/hasilSPLDV_x"
+            android:gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="y = ?"
+            android:id="@+id/hasilSPLDV_y"
+            android:gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="( x , y )"
+            android:id="@+id/hasilSPLDV_xy"
+            android:gravity="center"
+            android:textColor="#2abe0c"
+            android:padding="5dp"
+            android:background="#e4f3e1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/metode_penyamaan"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/spldv_penyamaan"
+            android:layout_margin="7dp"/>
+    </LinearLayout>
+
+</LinearLayout>

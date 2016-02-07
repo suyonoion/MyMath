@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Math</string>
+    <string name="action_settings">Settings</string>
+    <!-- tambahan -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- tambah -->
+    <string-array name="num_of_folds_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="namapagexml_array">
+        <item>SPLDV \nSistem Persamaan Linear Dua Variabel</item>
+        <item>Kosong</item>
+        <item>Kosong</item>
+        <item>Kosong</item>
+        <item>Tentang</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>
